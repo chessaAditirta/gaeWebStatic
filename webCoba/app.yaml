@@ -1,0 +1,24 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+handlers:
+- url: /img
+  static_dir: img
+- url: /images
+  static_dir: images
+- url: /pict
+  static_dir: pict
+- url: /styles
+  static_dir: styles
+- url: /vendor
+  static_dir: vendor
+- url: /css
+  static_dir: css
+- url: /
+  script: index.php
+- url: /index.php
+  script: index.php
+- url: /gallery.php
+  script: gallery.php
+- url: /about.php
+  script: about.php

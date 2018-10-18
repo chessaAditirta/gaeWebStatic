@@ -1,44 +1,4 @@
-<html lang="en">
-<head>
-
-  <!-- TODO 3 - set the visual viewport -->
-  <meta name="viewport" content="width=device-width,  initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
-  <title>Selamat Datang di Batik Mulyo</title>
-
-  <!-- TODO 6.1 - include custom Modernizr build -->
-  <script src="modernizr-custom.js"></script>
-
-  <link rel="stylesheet" href="styles/main.css">
-</head>
-
-<body>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="index.html">Batik Mulyo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<div class="header">
-  <h1>Batik Mulyo</h1>
-</div>
+<?php include_once ('top_template.php'); ?>
 <div class="halaman">
   <h3>Gallery</h3>
 </div>
@@ -64,7 +24,7 @@
        <div class="col1">
               <a href="">
              <figure>
-              <img id="sfo1" src="images/batik2.jpg" alt="View from aircraft window near San Francisco airport">
+              <img id="sfo1" src="images/batik.jpeg" alt="View from aircraft window near San Francisco airport">
             </figure>
               <h1>Motif Batik Sidomukti Magetan</h1>
               <p>Motif batik asal kabupaten Magetan ini mempunyai motif dasar gambar bambu.</p>
@@ -129,10 +89,4 @@
           </a>
       </div> 
     </div>
-
-</div>
-<div class="footer">
-  <p>copyright © 2018 | Desain Theme Made By www.w3schools.com</p>
-</div>
-</body>
-</html>
+    <?php include_once ('bottom_template.php'); ?>
